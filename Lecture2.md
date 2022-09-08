@@ -44,9 +44,9 @@ loop
     expand the node and add the resulting nodes to the set of frontier nodes
 ```
 
-### Uniformed Search Strategies
-**uniformed search**: no idea of whether one "non-goal" state is better than another  
-Complexity for uniformed search is described in terms of branch factor ``b``, depth ``d``, maximum length of any path in the state space ``m``
+### Uninformed Search Strategies
+**uninformed search**: no idea of whether one "non-goal" state is better than another  
+Complexity for uninformed search is described in terms of branch factor ``b``, depth ``d``, maximum length of any path in the state space ``m``
 
 #### Breadth-first Search
 **BFS**: all nodes are expanded at a given depth in the search tree before any nodes at the next level are expanded, use a FIFO queue to keep track
@@ -54,7 +54,7 @@ of which node to visit next
 - BFS is complete and optimal if measured in # of steps taken (under certain conditions)
 - space complexity: ``O(b^d)``
 - time complexity: ``O(b^d)``
-- exponential complexity search problems cannot be solved by uniformed methods for any but the smallest problem instances
+- exponential complexity search problems cannot be solved by uninformed methods for any but the smallest problem instances
 
 #### Depth-first Search
 **DFS**: explore tree down to the root using a rule (such as leftmost branch first) before backing up, using a LIFO queue to keep track of which node to visit next
