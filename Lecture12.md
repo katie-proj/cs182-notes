@@ -30,7 +30,7 @@ always selects a Condorcet winner whenever it is presented with a profile that c
 Each alternative receives one point for each head-to-head comparison it wins (as well as for tied comparisons). This is Condorcet consistent.
 - the Condorcet winner will receive ``m-1`` points when there are ``m`` candidates because, by definition, it beats all other alternatives
 
-## Dodgson's Rule 🖋️ 🎩
+## Dodgson's Rule 🖋️ 🎩 ⛔ ©️
 The **Dodgson score** of an alternative X is the minimum # of swaps between adjacent alternatives needed to make X a Condorcet winner; select an alternative with minimum score
 - the lower the score, the closer the alternative is to the Condorcet winner
 - Condorcet consistent because it defines for each alternative the distance from Condorcet winner (e.g. Condorcet winner has score 0, ...)
